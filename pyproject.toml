@@ -2,7 +2,7 @@
 name = "url-shortener"
 version = "0.1.0"
 description = "Simple URL shortener"
-authors = [xbound]
+authors = ["xbound"]
 license = "MIT"
 
 [tool.poetry.dependencies]

@@ -13,6 +13,10 @@ Run migrations:
 $ poetry shell
 $ cd django-url-shortener && python manage.py migrate
 ```
+Create default superuser with username `admin` and password `12345678` use:
+```shell
+$ python manage.py create_default_admin
+```
 Start development server using `runserver` command:
 ```shell
 $ python manage.py runserver
