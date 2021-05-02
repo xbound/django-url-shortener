@@ -1,0 +1,13 @@
+version: '3.7'
+services: 
+    app:
+        container_name: "urlshortener"
+        build: 
+            context: .
+        ports: 
+          - 8000:8000
+        volumes: 
+          - "./django-url-shortener/:/app/"
+        restart: always
+        stdin_open: true
+        tty: true
